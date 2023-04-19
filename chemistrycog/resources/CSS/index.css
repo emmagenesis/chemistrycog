@@ -1,0 +1,83 @@
+body {
+  margin-right: 100px;
+  
+}
+
+.main {
+  position:relative;
+  top:150px;
+}
+h1,
+      h2 {
+        color: #4b6780;
+        opacity: 1;
+        font-family: "Inconsolata";
+      }
+h1, .title {
+        border-bottom: 1px solid black;
+        /* margin-right: 300px;*/ 
+        /* max-width: fit-content;*/
+        Padding: 10px 40px;
+        background-color: rgba(56, 182, 255, 0.9);
+      }
+
+.header {
+  font-family: "Inconsolata", Verdana, sans-serif;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.header nav {
+  display: inline-block;
+  width:100%;
+
+
+}
+/*
+.button:hover {
+  background-color: #05A8AA;
+  border: 1px solid #05A8AA;
+  color: #FFF;
+*/
+h3 {
+  font-family: "Inconsolata", Verdana, sans-serif;
+  color: #38b6ff;
+}
+/*
+.title {
+  background-color: rgba(56, 182, 255, 0.9);
+  
+}
+*/
+
+img {
+  border-radius: 50%;
+}
+
+
+.sidebar {
+  margin: 10px;
+  padding: 20px 40px;
+  width: 200px;
+  background-color: rgba(255, 252, 170, 0.5);
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  float:right;
+  
+}
+      
+p {
+  font-family: "Montserrat", Verdana, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  
+}
+
+.blog {
+  color: #4b6780;
+  opacity: 1;
+  font-family: "Inconsolata";
+  width: 300px;
+
+}
